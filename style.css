@@ -361,6 +361,62 @@ footer {
     }
 }
 
+@media screen and (max-width: 633px) {
+    body {
+        background-color: #f3ba93;
+    }
+
+    .tile {
+        width: 80%;
+        height: 130px;
+        margin-left: 8%;
+    }
+
+    .logo {
+        height: 67px;
+        width: 23%;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 39%;
+    }
+
+    .logotext {
+        font-size: 45px;
+        font-weight: 700;
+        position: absolute;
+        margin-top: 9%;
+        margin-left: 32%;
+    }
+
+    .heading {
+        font-size: 35px;
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 12%;
+
+    }
+
+    .dropdown {
+        /* width: 67%; */
+        height: 30px;
+        position: absolute;
+        margin-top: 39%;
+        margin-left: 18%;
+    }
+
+    .selectcity {
+        font-size: 18px;
+        width: 103%;
+    }
+
+    .selectrestorent {
+        font-size: 18px;
+        width: 103%;
+        position: absolute;
+        margin-top: 3.2%;
+    }
+}
+
 @media screen and (max-width: 425px) {
     body {
         background-color: #f3ba93;
