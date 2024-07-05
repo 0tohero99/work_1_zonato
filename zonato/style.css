@@ -253,6 +253,7 @@ footer {
         font-size: 23px;
         width: 57%;
         position: absolute;
+        margin-left: 13px;
     }
 }
 
@@ -302,7 +303,7 @@ footer {
         font-size: 18px;
         width: 45%;
         position: absolute;
-        margin-left: 7px;
+        margin-left: 13px;
     }
 }
 

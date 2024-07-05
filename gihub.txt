@@ -9,3 +9,5 @@ git push -u origin main
 git remote add origin https://github.com/0tohero99/zonato.git
 git branch -M main
 git push -u origin main
+
+target screen =320|375|425|786|1024|
