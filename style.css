@@ -599,7 +599,7 @@ footer {
     }
 
     .tile {
-        width: 90%;
+        width: 80%;
         height: 130px;
     }
 
@@ -653,7 +653,10 @@ footer {
         background-color: rgb(204, 238, 204);
     }
 
-    
+    .tile{
+        width: 90%;
+        margin-left: 9px;
+    }
 
     .logotext {
         font-size: 43px;
@@ -678,6 +681,7 @@ footer {
         margin-top: 53%;
         margin-left: 16.3%;
     }
+ 
 }
 
 @media screen and (max-width: 260px) {
