@@ -640,3 +640,59 @@ footer {
         margin-left: 1%;
     }
 }
+
+@media screen and (max-width: 260px) {
+    body {
+        background-color: rgb(204, 238, 204);
+    }
+
+    .tile {
+        width: 90%;
+        height: 130px;
+    }
+
+    .logo {
+        height: 67px;
+        width: 23%;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 39%;
+    }
+
+    .logotext {
+        font-size: 43px;
+        font-weight: 700;
+        position: absolute;
+        margin-top: 15.3%;
+        margin-left: 20%;
+    }
+
+    .heading {
+        font-size: 18px;
+        position: absolute;
+        margin-top: 49%;
+        margin-left: 4.3%;
+
+    }
+
+    .dropdown {
+        /* width: 67%; */
+        height: 25px;
+        position: absolute;
+        margin-top: 61%;
+        margin-left: 16.3%;
+    }
+
+    .selectcity {
+        width: 103%;
+        font-size: 18px;
+    }
+
+    .selectrestorent {
+        font-size: 18px;
+        width: 103%;
+        position: absolute;
+        margin-top: 7%;
+        margin-left: 1%;
+    }
+}
