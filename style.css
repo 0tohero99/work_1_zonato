@@ -471,7 +471,15 @@ footer {
         margin-top: 7%;
     }
 }
-
+@media screen and (max-width: 425px) {
+    body {
+        background-color: #f3ba93;
+    }
+    .heading{
+        font-size: 25px;
+        margin-left: 5.2%;
+    }
+}
 @media screen and (max-width: 375px) {
     body {
         background-color: #f9e6e9;
@@ -648,7 +656,7 @@ footer {
 
     .brand {
         float: left;
-        font-size: 18px;
+        font-size: 25px;
         font-weight: 700;
         color: wheat;
         margin-left: 1%;
@@ -659,7 +667,7 @@ footer {
         border-radius: 50%;
         height: 25px;
         width: 21px;
-        margin-right: 3px;
+        margin-right: 7px;
         margin-top: 17%;
     }
 
