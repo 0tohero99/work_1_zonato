@@ -51,6 +51,37 @@ header {
     position: absolute;
     margin-top: 1%;
     margin-left: 43%;
+    animation: blink 5s infinite;
+}
+
+@keyframes blink {
+    0% {
+        transform: scale(1.1);
+
+    }
+
+    25% {
+        transform: scale(1);
+        background-color: lightgreen;
+    }
+
+    50% {
+        transform: scale(1.1);
+        background-color: #c7c732;
+    }
+
+    75% {
+        transform: scale(1);
+        background-color: tomato;
+
+    }
+
+    100% {
+        transform: scale(1.1);
+        background-color: lightpink;
+
+    }
+
 }
 
 .logotext {
@@ -58,7 +89,9 @@ header {
     font-weight: 700;
     position: absolute;
     margin-top: 15.3%;
-    margin-left: 27%;
+    margin-left: 15.2%;
+    /* margin-left: 27%; */
+
 }
 
 .heading {
@@ -69,6 +102,7 @@ header {
     position: absolute;
     margin-top: 15%;
     margin-left: 13%;
+
     /* opacity: .7; */
 }
 
@@ -136,7 +170,6 @@ select {
     margin: 3% 3% 3% 4.3%;
 }
 
-
 .tile1 {
     float: left;
     width: 52%;
@@ -148,6 +181,11 @@ select {
     height: 100%;
     width: 100%;
 }
+
+.tile1 :hover {
+    opacity: .7;
+}
+
 
 .tile2 {
     float: right;
@@ -471,15 +509,7 @@ footer {
         margin-top: 7%;
     }
 }
-@media screen and (max-width: 425px) {
-    body {
-        background-color: #f3ba93;
-    }
-    .heading{
-        font-size: 25px;
-        margin-left: 5.2%;
-    }
-}
+
 @media screen and (max-width: 375px) {
     body {
         background-color: #f9e6e9;
@@ -648,12 +678,13 @@ footer {
         margin-left: 1%;
     }
 }
+
 @media screen and (max-width: 390px) {
     body {
         background-color: rgb(204, 238, 204);
     }
 
-    .tile{
+    .tile {
         width: 90%;
         margin-left: 9px;
     }
@@ -668,7 +699,7 @@ footer {
 
     .heading {
         font-size: 23px;
-         position: absolute;
+        position: absolute;
         margin-top: 41%;
         margin-left: 3%;
 
@@ -681,7 +712,7 @@ footer {
         margin-top: 53%;
         margin-left: 16.3%;
     }
- 
+
 }
 
 @media screen and (max-width: 260px) {
@@ -717,7 +748,7 @@ footer {
         width: 52%;
         height: 90px;
     }
-     
+
     .logo {
         height: 67px;
         width: 23%;
