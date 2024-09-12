@@ -510,6 +510,42 @@ footer {
     }
 }
 
+@media screen and (max-width: 390px) {
+    body {
+        background-color: rgb(204, 238, 204);
+    }
+
+    .tile {
+        width: 90%;
+        margin-left: 9px;
+    }
+
+    .logotext {
+        font-size: 43px;
+        font-weight: 700;
+        position: absolute;
+        margin-top: 13%;
+        margin-left: 32%;
+    }
+
+    .heading {
+        font-size: 23px;
+        position: absolute;
+        margin-top: 41%;
+        margin-left: 3%;
+
+    }
+
+    .dropdown {
+        /* width: 67%; */
+        height: 25px;
+        position: absolute;
+        margin-top: 53%;
+        margin-left: 16.3%;
+    }
+
+}
+
 @media screen and (max-width: 375px) {
     body {
         background-color: #f9e6e9;
@@ -634,7 +670,7 @@ footer {
     }
 
     .logo {
-        height: 67px;
+        height: 53px;
         width: 23%;
         position: absolute;
         margin-top: 5%;
@@ -642,18 +678,18 @@ footer {
     }
 
     .logotext {
-        font-size: 43px;
+        font-size: 39px;
         font-weight: 700;
         position: absolute;
-        margin-top: 15.3%;
-        margin-left: 27%;
+        margin-top: 8%;
+        margin-left: 31%;
     }
 
     .heading {
         font-size: 18px;
         position: absolute;
         margin-top: 49%;
-        margin-left: 4.3%;
+        margin-left: 3%;
 
     }
 
@@ -668,6 +704,7 @@ footer {
     .selectcity {
         width: 103%;
         font-size: 18px;
+        margin-top: 7%;
     }
 
     .selectrestorent {
@@ -677,42 +714,6 @@ footer {
         margin-top: 7%;
         margin-left: 1%;
     }
-}
-
-@media screen and (max-width: 390px) {
-    body {
-        background-color: rgb(204, 238, 204);
-    }
-
-    .tile {
-        width: 90%;
-        margin-left: 9px;
-    }
-
-    .logotext {
-        font-size: 43px;
-        font-weight: 700;
-        position: absolute;
-        margin-top: 13%;
-        margin-left: 32%;
-    }
-
-    .heading {
-        font-size: 23px;
-        position: absolute;
-        margin-top: 41%;
-        margin-left: 3%;
-
-    }
-
-    .dropdown {
-        /* width: 67%; */
-        height: 25px;
-        position: absolute;
-        margin-top: 53%;
-        margin-left: 16.3%;
-    }
-
 }
 
 @media screen and (max-width: 260px) {
